@@ -1,4 +1,4 @@
 #include <stdio.h>
 void InFoo(){
-	printf(¡°I am InFoo() \n¡±);
+	printf("I am InFoo() \n");
 }
