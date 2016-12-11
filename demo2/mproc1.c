@@ -14,7 +14,7 @@ void killChild(int sig) {
 	exit(0);
 }
 int main(int argc, char* argv[]) {
-	printf("Lab-7, 2011136084, Lee Do-hyung\n");
+	printf("2013136146, HakSun Lee\n");
 	(void) signal(SIGTERM, killChild);
 	srand(time(NULL));
 	char seed[15];
