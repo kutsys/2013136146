@@ -13,7 +13,7 @@ void* subprocThread(void* arg) {
 }
 
 int main(int argc, char* argv[]) {
-	printf("2013136146, HakSun Lee\n");
+	printf("2013136146, HakSun Lee\n"); 
 	srand(time(NULL));
 	pthread_t threads[EXECTO];
 	for(int i=0; i<EXECTO; ++i) {
