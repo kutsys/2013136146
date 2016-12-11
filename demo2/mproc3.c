@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <pthread.h>
 #include "subproc_func.h"
-
+ 
 #define EXECTO 10
 
 int testFunctCalled = 0;
