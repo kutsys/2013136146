@@ -24,7 +24,7 @@ void* subprocSync(void* arg) {
 }
 
 int main(int argc, char* argv[]) {
-	printf("Lab-9, 2011136084 Lee Do-hyung\n");
+	printf("2013136146, HakSun Lee\n");
 	pthread_mutex_init(&tfcMutex, NULL);
 	pthread_t threads[EXECTO];
 	for(int i=0; i<EXECTO; ++i) {
